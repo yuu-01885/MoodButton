@@ -16,7 +16,6 @@ function changeMood() {
 
   // body の背景色を変更
   document.body.style.backgroundColor = mood.color;
-}
 
   // 枠は白のまま固定
   document.querySelector(".container").style.backgroundColor = "#ffffff";
