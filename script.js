@@ -12,6 +12,11 @@ function changeMood() {
   const randomIndex = Math.floor(Math.random() * moods.length);
   const mood = moods[randomIndex];
 
-  document.getElementById("message").textContent = mood.text;
-  document.querySelector(".container").style.backgroundColor = mood.color;
+document.getElementById("message").textContent = mood.text;
+
+  // 背景だけ色を変える
+  document.body.style.backgroundColor = mood.color;
+
+  // 枠は白のまま固定
+  document.querySelector(".container").style.backgroundColor = "#ffffff";
 }
