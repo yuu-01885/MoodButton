@@ -14,9 +14,7 @@ function changeMood() {
 
   document.getElementById("message").textContent = mood.text;
 
-  // body の背景色を変更
+  // html と body 両方の背景色を変更
+  document.documentElement.style.backgroundColor = mood.color;
   document.body.style.backgroundColor = mood.color;
-
-  // 枠は白のまま固定
-  document.querySelector(".container").style.backgroundColor = "#ffffff";
 }
