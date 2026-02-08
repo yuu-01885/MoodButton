@@ -4,7 +4,7 @@ const moods = [
   { text: "集中できそうな気分", color: "#e8f5e9" },
   { text: "ゆっくり休みたい", color: "#fffde7" },
   { text: "新しいことに挑戦したい！", color: "#ede7f6" },
-  { text: "ワクワクしている", color: "#fff3e0" },
+  { text: "ワクワクしてる", color: "#fff3e0" },
   { text: "ちょっと不安だけど頑張る", color: "#e0f2f1" }
 ];
 
